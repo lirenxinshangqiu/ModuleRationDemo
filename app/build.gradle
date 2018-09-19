@@ -29,5 +29,6 @@ dependencies {
     if (!isModule.toBoolean()) {
         implementation project(':mainmodule')
         implementation project(':newsmodule')
+        implementation project(":WeatherModule")
     }
 }

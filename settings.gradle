@@ -1,1 +1,1 @@
-include ':app', ':commonmodule', ':mainmodule', ':newsmodule'
+include ':app', ':commonmodule', ':mainmodule', ':newsmodule', ':WeatherModule'
