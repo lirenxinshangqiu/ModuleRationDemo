@@ -25,10 +25,11 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation project(':commonmodule')
     if (!isModule.toBoolean()) {
         implementation project(':mainmodule')
         implementation project(':newsmodule')
         implementation project(":WeatherModule")
+    } else {
+        implementation project(':commonmodule')
     }
 }
