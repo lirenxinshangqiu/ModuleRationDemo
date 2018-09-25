@@ -28,6 +28,9 @@ android {
 
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
-    api 'com.android.support:appcompat-v7:'+project["support"]
-    api 'com.alibaba:arouter-api:'+project["arouter_api"]
+    api 'com.android.support:appcompat-v7:' + project["support"]
+    api 'com.alibaba:arouter-api:' + project["arouter_api"]
+    api 'com.squareup.okhttp3:okhttp:' + project["okhttp"]
+    api 'com.google.code.gson:gson:' + project["gson"]
+    api 'com.github.bumptech.glide:glide:4.8.0'
 }

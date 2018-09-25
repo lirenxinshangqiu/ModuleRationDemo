@@ -1,4 +1,4 @@
-package debug;
+package com.example.ls.modulerationdemo;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.ls.commonmodule.BaseApplication;
